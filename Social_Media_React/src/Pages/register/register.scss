@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+.register{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(204, 201, 254);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .card{
+        width: 50%;
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: white;
+        border-radius: 10px;
+        min-height: 600px;
+        overflow: hidden;
+        .left{
+            flex: 1;
+            background:linear-gradient(rgba(39,11,96,0.3),rgba(39,11,96,0.8)),url("https://images.pexels.com/photos/7148406/pexels-photo-7148406.jpeg?auto=compress&cs=tinysrgb&w=600") center;
+            background-size: cover;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            color: white;
+            h1{
+                font-size: 100px;
+                line-height: 100px;
+            }
+            p{
+                font-size: 20px;
+            }
+            span{
+                font-size: 14px;
+                cursor: pointer;
+            }
+            button{
+                width: 50%;
+                background-color: white;
+                padding: 10px;
+                border: none;
+                color: rgb(39,11,96);
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+
+        .right{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+            gap: 50px;
+            justify-content: center;
+            h1{
+                color: #555;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                input{
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 20px 10px;
+                }
+                button{
+                    width: 50%;
+                    border: none;
+                    padding: 10px;
+                    background-color: #938eef;
+                    color: white;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
